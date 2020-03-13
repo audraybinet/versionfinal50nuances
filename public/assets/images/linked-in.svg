@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6449 4191 30.722 30.722">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #262626;
+      }
+    </style>
+  </defs>
+  <g id="flaticon1510136869-svg" class="cls-1" transform="translate(6449 4191)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-2" cx="15.361" cy="15.361" r="15.361" transform="translate(0 0)"/>
+    <g id="Group_1208" data-name="Group 1208" transform="translate(7.412 6.564)">
+      <path id="Path_1757" data-name="Path 1757" class="cls-3" d="M44.2,34v6.333H40.524V34.427c0-1.484-.53-2.5-1.86-2.5a2.008,2.008,0,0,0-1.883,1.343,2.513,2.513,0,0,0-.122.895v6.168H32.987s.049-10.007,0-11.043h3.672v1.565c-.007.012-.018.024-.024.036h.024v-.036a3.646,3.646,0,0,1,3.309-1.824c2.416,0,4.227,1.578,4.227,4.97ZM29.146,23.969a1.913,1.913,0,1,0-.048,3.816h.024a1.914,1.914,0,1,0,.024-3.816Zm-1.86,16.367h3.671V29.292H27.286Z" transform="translate(-27.068 -23.969)"/>
+    </g>
+  </g>
+</svg>

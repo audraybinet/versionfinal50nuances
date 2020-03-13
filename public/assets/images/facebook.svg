@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6572.925 4191 30.722 30.722">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #262626;
+      }
+    </style>
+  </defs>
+  <g id="flaticon1510136841-svg" class="cls-1" transform="translate(6572.925 4191)">
+    <path id="Path_1758" data-name="Path 1758" class="cls-2" d="M15.361,0A15.361,15.361,0,1,1,0,15.361,15.361,15.361,0,0,1,15.361,0Z" transform="translate(0 0)"/>
+    <path id="Path_1751" data-name="Path 1751" class="cls-3" d="M46.681,31.766H43.94V41.808H39.787V31.766H37.812V28.237h1.975V25.953a3.894,3.894,0,0,1,4.19-4.19l3.076.013V25.2H44.821a.845.845,0,0,0-.881.962V28.24h3.1Z" transform="translate(-27.458 -15.804)"/>
+  </g>
+</svg>

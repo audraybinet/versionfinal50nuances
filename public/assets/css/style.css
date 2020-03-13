@@ -1,0 +1,68 @@
+.login-button .btn{
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    width: 150px;
+    font-weight: 500;
+    margin-right: 10px;
+    border: 1px solid violet;
+    border-radius: 30px
+}
+.login-button .btn:hover{
+    background-color: #610A37;
+    color:black;
+}
+.paragraphe{
+  text-align: justify;
+}
+.card-img-top{
+  height: 200px;
+  width: 100%;
+}
+.box1{
+  display: flex;
+  align-items:stretch;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 2px;
+}
+.sum{
+  border-top: solid 5px #CC4AB0; ;
+  border-bottom: solid #CC4AB0;;
+}
+.shoot{
+  border-top: solid 5px #CC4AB0; ;
+  border-bottom: solid #CC4AB0;;
+}
+
+.box2{
+  display: flex;
+  align-items:stretch;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 2px;
+}
+.hideParagraph{
+ white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+.d-block{
+    width: 400px;
+    height: 400px;
+}
+.scroll {
+    max-height: 400px;
+    overflow-y: auto;
+}
+.card{
+     background: #E66BC1;
+     text-align: justify;
+}

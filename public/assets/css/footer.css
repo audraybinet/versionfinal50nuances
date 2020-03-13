@@ -1,0 +1,22 @@
+/* footer */
+.logo2 {
+  height: 50px;
+  width: 50px;
+}
+.navbar{
+  background: linear-gradient(grey, white);
+}
+footer {
+  background: linear-gradient(#797B7A, white);
+}
+.bottom{
+  display: flex;
+  align-items:stretch;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body{
+  background: linear-gradient(#BF38A8, #FF8CD1);
+}
+/* fin header */

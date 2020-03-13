@@ -1,0 +1,15 @@
+/* header */
+header{
+  background: linear-gradient(#BF38A8, white);
+}
+.logo{
+  height: 200px;
+  width: 200px;
+}
+.boxHeader{
+  padding-top:40px;
+}
+.slogan{
+    text-align: center;
+}
+/* fin header */
