@@ -45,13 +45,16 @@ require_once ROOT . '/Views/nav.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <?php foreach ($viewsCourseUser as $viewsCourseInfo) { ?>
-                                <th scope="row">1</th>
-                                <td><?= $viewsCourseInfo->nameCours ?></td>
-                                <td><?= $viewsCourseInfo->slots ?></td>
-                                <td><a href ="cours.php?id="">Supprimer</a></td>
-                            </tr>
-                        <?php } ?>
+                            <?php 
+                           foreach ($viewsCourseUser as $viewsCourseInfo) : ?>
+    <?php $coursHref = "cours.php?delete=".$viewsCourseInfo->coursId; ?>
+    <th scope="row">1</th>
+    <td><?= $viewsCourseInfo->nameCours ?></td>
+    <td><?= $viewsCourseInfo->slots ?></td>
+    <td><a href ="<?= $coursHref ?>">Supprimer</a></td>
+</tr>
+<?php endforeach; ?>
+                        
                     </tbody>
                 </table>
             </div> 

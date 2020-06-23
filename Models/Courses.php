@@ -23,13 +23,12 @@ class course {
         $queryResult = $this->db->query($query);
         return $queryResult->fetchAll(PDO::FETCH_OBJ);
     }
-    
-    public function getCoursesByUser($userId) {
-        $query = 'SELECT users.id, cours.nameCours, course_slots.slots FROM users JOIN clients_courses ON clients_courses.user_id = users.id JOIN cours ON cours.id = clients_courses.course_id JOIN course_slots ON course_slots.id = cours.id  WHERE users.id = :userId';
-        $queryResult = $this->db->prepare($query);
-        $queryResult->bindValue(':userId', $userId);
-        $queryResult->execute();
-        return $queryResult->fetchAll(PDO::FETCH_OBJ);
-    }
-   
+
+   public function getCoursesByUser($userId) {
+    $query = 'SELECT users.id, cours.id AS coursId, cours.nameCours, course_slots.slots FROM users JOIN clients_courses ON clients_courses.user_id = users.id JOIN cours ON cours.id = clients_courses.course_id JOIN course_slots ON course_slots.id = cours.id  WHERE users.id = :userId';
+    $queryResult = $this->db->prepare($query);
+    $queryResult->bindValue(':userId', $userId);
+    $queryResult->execute();
+    return $queryResult->fetchAll(PDO::FETCH_OBJ);
+}
 }

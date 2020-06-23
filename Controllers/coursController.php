@@ -12,23 +12,21 @@ if (!isset($_SESSION['auth']['login'])) {
 
 $userId = htmlspecialchars($_SESSION['auth']['id']);
 //Si je click sur reserver et récupére le get submit
-if (isset($_GET['reservation'])) {
-  $courseId = $_GET['reservation'];
+if (isset($_GET['reservation']) || isset($_GET['delete'])) {
+  $isReservation = isset($_GET['reservation']);
+  $courseId = ($isReservation) ? $_GET['reservation'] : $_GET['delete'];
   $clientcourse = new ClientCourse($courseId, $userId);
-  $clientcourse ->create();
- }
+  if ($isReservation) {
+    $clientcourse->create();
+  }
+  else {
+    $clientcourse->deleteCourse();  
+  }
+}
  
 $course = new Course();
 $courselist = $course->getCoursesList();
 $viewsCourseUser = $course->getCoursesByUser($userId);
-  var_dump($viewsCourseUser);
 
-
-
-
-
-     
         
 require_once ROOT . '/Views/cours.php';
-
-
